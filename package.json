@@ -1,0 +1,19 @@
+{
+  "name": "cypress-projekt",
+  "version": "1.0.0",
+  "description": "automatyzacja testów w cypress",
+  "main": "index.js",
+  "scripts": {
+    "checkbox": "cypress run --spec cypress/e2e/czekboks.cy.js"
+  },
+  "keywords": [
+    "automatyzacja",
+    "cypress",
+    "testy"
+  ],
+  "author": "olapiwo",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
+}
